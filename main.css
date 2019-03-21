@@ -37,6 +37,7 @@ body{	background: #77807f;
 
 #about .p-first{
 	margin-bottom: 30px;
+	color: black;
 }
 
 
@@ -110,7 +111,7 @@ body{	background: #77807f;
 
 
 .text-white{
-	color: white;
+	color: #ed9e65;
 }
 
 
@@ -124,6 +125,28 @@ p{
 .btn-danger{
 	border-radius: 0;
 	padding: 10px 20px;
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 
